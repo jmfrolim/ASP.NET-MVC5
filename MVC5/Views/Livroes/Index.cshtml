@@ -7,7 +7,7 @@
 <h2>Lista de Livros</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Inserir novo Livro", "Create")
 </p>
 <table class="table">
     <tr>
@@ -41,8 +41,8 @@
             @Html.DisplayFor(modelItem => item.Disponibilidade)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Editar", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.ID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.ID })
         </td>
     </tr>
